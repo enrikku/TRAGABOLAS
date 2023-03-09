@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*cursor: none;*/
+}
+
+#pantalla{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    /* background-color: black;
+    background-image: url(../hipo.png); */
+}
+
+.hipo{
+    width: 25vh;
+    height: 30vh;
+
+    /* background-color: red; */
+    border: solid  black 1px;
+    background-image: url(../hipo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
+    position: absolute;
+   
+    /* rotate: 100deg; */
+}
+
+/* .caixaBlava{
+    width: 20vh;
+    height: 20vh;
+ 
+    background-color: blue;
+    background-image: url(../gemelas.jfif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+ 
+    position: absolute;
+} */
+
+.ball
+{
+    width: 150px;
+    height: 150px;
+    border: solid 3px black;
+    background-color: red;
+    
+    border-radius: 50%;
+    position: absolute;
+}
+
+h1
+{
+    background-color: red;
+    text-align: center;
+}
