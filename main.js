@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         hipo.style.top = 35 + "vh";
         hipo.style.left = 45 + "vw";
-
+alert("Las bolas amarillas suman 1 punto, las demas restan 1 punto")
        generateBalls()
        //const time = setTimeout(generateBalls,500)
 
